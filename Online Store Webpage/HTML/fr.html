@@ -1,0 +1,241 @@
+<html>
+<head>
+<style>
+    body {
+     background-color: #F7F0D7 ;     
+}
+    .topnav {
+  overflow: hidden;
+  background-color: saddlebrown;
+    border-radius: 20px;
+      
+  
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+
+}
+
+.topnav a:hover {
+  background-color: #D5FFFE;
+  color: black;
+  
+}
+
+.topnav a.active {
+  background-color: blue;
+  color: white;
+
+}
+
+ .topnav a.alltime {
+  background-color: green;
+  color: white;
+
+}
+    .d1{
+        
+        height:50%;
+        width: 30%;
+        background-color: saddlebrown;
+        margin-top: 5%;
+        margin-left: 5%;
+        text-align: center;
+        border-radius: 5%;
+        
+    }
+    .div{
+     position: absolute;
+        right: 20px;
+        top: 20px;
+    }
+  .sticky {
+  position: sticky;
+  position: sticky;
+  top: 10%;
+  width: 30%;
+}
+    .d2{
+        height: 50%;
+        width: 20%;
+        margin-top: 5%;
+        margin-left: 45%;
+        background-color: saddlebrown;
+        position: absolute;     
+        right: auto;
+        
+    }
+    .d3{
+        height: 50%;
+        width: 20%;
+        margin-top: 5%;
+        margin-left: 75%;
+        background-color: saddlebrown;
+        
+    }
+    .d4{
+         height: 50%;
+        width: 20%;
+        margin-top: 5%;
+        margin-left: 75%;
+        background-color: saddlebrown;
+        position: absolute;
+       
+    }
+    .curve{
+        border-top-left-radius: 20%;
+        border-top-right-radius: 20%;
+    }
+    .flip-box {
+  background-color: saddlebrown;
+  border-top-right-radius: 20%;
+  border-top-left-radius: 20%;
+
+  perspective: 1000px;
+}
+
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+
+}
+
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+border-top-right-radius: 20%;
+  border-top-left-radius: 20%;
+
+    }
+
+.flip-box-front {
+  background-color: saddlebrown;
+  color: black;
+
+    }
+
+.flip-box-back {
+  background-color: #555;
+  color: white;
+  transform: rotateY(180deg);
+    align-content: center;
+
+    }
+</style>    
+</head>    
+<body>
+       <div align="center">
+    
+    <img  height=300px width=400px src=logo.png >
+        </div>
+
+<div class="topnav">
+  <a href="home.html">Home</a>
+  <a class="active" href="products.html" target="_self">Our Products</a>
+  <a href="contact.html" target="_self">Contact</a>
+    <a href="aboutus.html" target="_self">About us</a>
+   <a href="index1.html" class="alltime" style="float: right;">Logout</a>
+  
+</div><a href="">
+    <div class="d4 curve">
+    <div class="flip-box">		
+    <div class="flip-box-inner">
+    <div class="flip-box-front">
+        <img src=f2.jpeg height="80%" width="100%" class="curve">
+        <h1 style="color: white;">Delight Box</h1></div>				<!-- Delight Box -->
+        <div class="flip-box-back">
+            <img src=f2.jpeg style="width: 80%;margin-top: 3%; opacity: 0.5; border-radius: 50%;">
+      <h1>Weight</h1>
+      <h2>200 gm</h2>
+    </div>
+  </div>
+        </div></div></a>
+    
+    <div class="d2 curve">
+        <div class="flip-box">
+    <div class="flip-box-inner">
+    <div class="flip-box-front">
+        <img src=f3.jpeg height="80%" width="100%" class="curve">
+        <h1 style="color: white;">Grand Rocher</h1></div>	<!-- Happy Ball -->
+        <div class="flip-box-back">
+            <img src=f3.jpeg style="width: 80%;margin-top: 3%; opacity: 0.5; border-radius: 50%;">
+      <h1>Weight</h1>
+      <h2>50 gm</h2>
+    </div>
+  </div>
+        </div></div>
+   <div class="d1 sticky"><img  height=80% width=100% src=fe.png style="border-top-left-radius: 5%;border-top-right-radius: 5%;"><h1 style="color: white;font-family: cursive;"><b>FERRERO ROCHER</b></h1></div>
+    
+    <div class="d2 curve">
+         <div class="flip-box">
+    <div class="flip-box-inner">
+    <div class="flip-box-front"><img class="curve" src=f4.jpg height="80%" width="100%">
+        <h1 style="color: white;">Lovely box</h1></div>	<!-- Love Ball -->
+        <div class="flip-box-back">
+            <img src=f4.jpg style="width: 80%;margin-top: 3%;opacity: 0.5; border-radius: 50%;">
+      <h1>Weight</h1>
+      <h2>80 gm</h2>
+    </div>
+  </div>
+        </div></div>
+    <div class="d3 curve">
+         <div class="flip-box">
+    <div class="flip-box-inner">
+    <div class="flip-box-front"><img class="curve" src=f5.jpg height="80%" width="100%">
+        <h1 style="color: white;">Mini Box (10 Pcs)</h1></div>	<!-- Small Delight Box -->
+        <div class="flip-box-back">
+            <img src=f5.jpg style="width: 80%;margin-top: 3%;opacity: 0.5; border-radius: 50%;">
+      <h1>Weight</h1>
+      <h2>100 gm</h2>
+    </div>
+  </div>
+        </div></div>
+    <div class="d2 curve">
+         <div class="flip-box">
+    <div class="flip-box-inner">
+    <div class="flip-box-front"><img class="curve" src=f6.jpg height="80%" width="100%"> <h1 style="color: white;"> 4 Pralines</h1></div>	<!-- Cute 5 -->
+        <div class="flip-box-back">
+            <img src=f6.jpg style=" width: 80%;margin-top: 3%;opacity: 0.5; border-radius: 50%;">
+      <h1>Weight</h1>
+      <h2>50 gm</h2>
+    </div>
+  </div>
+        </div></div>
+    
+     <div class="d3 curve">
+         <div class="flip-box">
+    <div class="flip-box-inner">
+    <div class="flip-box-front"><img class="curve" src=f7.jpg height="80%" width="100%"><h1 style="color: white;">Box of 24 Pcs</h1></div>
+        <div class="flip-box-back">
+            <img src=f7.jpg style="width: 80%;margin-top: 3%;opacity: 0.5; border-radius: 50%;">		<!-- Collection Box -->
+      <h1>Weight</h1>
+      <h2>300 gm</h2>
+    </div>
+  </div>
+        </div></div>
+    
+
+     
+  
+      
+    
+    
+    
+</body>
+</html>

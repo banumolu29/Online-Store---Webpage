@@ -1,0 +1,310 @@
+<html>
+<head>
+<style>
+    body {
+     background-color: #F7F0D7 ;     
+}
+    .topnav {
+  overflow: hidden;
+  background-color: saddlebrown;
+    border-radius: 20px;
+       
+  
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+
+}
+
+.topnav a:hover {
+  background-color: #D5FFFE;
+  color: black;
+  
+}
+
+.topnav a.active {
+  background-color: blue;
+  color: white;
+
+}
+
+ .topnav a.alltime {
+  background-color: green;
+  color: white;
+
+}
+    
+
+    
+    
+    .d1{
+        
+        height:50%;
+        width: 30%;
+        
+        background-color: saddlebrown;
+        margin-top: 5%;
+        margin-left: 5%;
+        text-align: center;
+        border-radius: 5%;
+        
+    }
+    .div{
+     position: absolute;
+  right: 20px;
+        top: 20px;
+    }
+  .sticky {
+  position: sticky;
+  position: sticky;
+  top: 10%;
+  width: 30%;
+}
+    .d2{
+        height: 50%;
+        width: 20%;
+        margin-top: 5%;
+        margin-left: 45%;
+        background-color: saddlebrown;
+        position: absolute;
+        right: auto;
+        margin-bottom: 5%;
+        text-align: center;
+        color: white;
+        border-bottom-right-radius: 20%;
+        border-bottom-left-radius: 20%;
+        padding-bottom: 2%;
+        
+    }
+    .d3{
+        height: 50%;
+        width: 20%;
+        margin-top: 5%;
+        margin-left: 75%;
+        background-color: saddlebrown;
+         
+        text-align: center;
+        color: white;
+        border-bottom-right-radius: 20%;
+        border-bottom-left-radius: 20%;
+        padding-bottom: 2%;
+       
+    }
+    .d4{
+         height: 50%;
+        width: 20%;
+        margin-top: 5%;
+        margin-left: 75%;
+        background-color: saddlebrown;
+        position: absolute;
+        margin-bottom: 5%;
+        color: white;
+        text-align: center;
+        border-bottom-right-radius: 20%;
+        border-bottom-left-radius: 20%;
+        padding-bottom: 2%;
+    }
+    
+      }
+    .flip-box {
+  background-color: saddlebrown;
+perspective: 1000px;
+}
+
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+
+  transform-style: preserve-3d;
+
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+
+    } 
+
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+border-bottom-right-radius: 20%;
+border-bottom-left-radius: 20%;
+padding-bottom: 10%;
+  }
+
+.flip-box-front {
+  background-color: saddlebrown;
+  color: black;
+ }
+
+.flip-box-back {
+  background-color: #555;
+  color: white;
+  transform: rotateY(180deg);
+    align-content: center;
+
+    }
+</style>    
+</head>    
+<body>
+       <div align="center">
+    
+    <img  height=300px width=400px src=logo.png >
+        </div>
+
+<div class="topnav">
+  <a href="home.html" >Home</a>
+  <a class="active" href="products.html" >Our Products</a>
+  <a href="contact.html" >Contact</a>
+    <a href="aboutus.html" >About us</a>
+   <a href="index1.html" class="alltime" style="float: right;">Logout</a>
+  
+</div>
+    <a href="DMSWholenut.jsp">
+    <div class="d4 ">
+    <div class="flip-box">
+    <div class="flip-box-inner">
+    <div class="flip-box-front">
+        <img src=cad10.jpg height="80%" width="100%"><h1 style="color: white;">Dairy Milk Whole Nut</h1></div>
+        <div class="flip-box-back" style="height: 100%;">
+            <img src=cad10.jpg style="width: 80%;margin-top: 3%; opacity: 0.5; border-radius:50%; " name="DMSCaramello" id="DMSCaramello" value="DMSCaramello">
+      <h1>Weight</h1>
+      <h2>120 gm</h2>
+    </div>
+  </div>
+        </div></div></a>
+     <a href="DMSCaramello.jsp">
+    <div class="d2 ">
+    <div class="flip-box">
+    <div class="flip-box-inner">
+    <div class="flip-box-front">
+        <img src=cad7.jpeg height="80%" width="100%" ><h1 style="color: white;">Dairy Milk Silk Caramallo</h1></div>
+        <div class="flip-box-back" style="height: 100%;">
+            <img src=cad7.jpeg style="width: 80%;margin-top: 3%; opacity: 0.5; border-radius:50%; " name="DMWholeNut" id="DMWholeNut" value="DMWholeNut">
+      <h1>Weight</h1>
+      <h2>60 gm</h2>
+    </div>
+  </div>
+        </div></div></a>
+   
+   <div class="d1 sticky" ><img  height=80% width=100% src=cad.png style="border-top-left-radius:5%; border-top-right-radius: 5%;"><h1 style="color: white;"><b>CADBURY</b></h1></div>
+    <div class="art-content"><p class="d2"></p></div>
+    
+    <div class="d2 "><a href="DMSChocolate.jsp">
+    <div class="flip-box">
+    <div class="flip-box-inner">
+    <div class="flip-box-front">
+        <img src=cad1.jpg height="80%" width="100%" ><h1 style="color: white;">Dairy Milk Silk Chocolate</h1></div>
+        <div class="flip-box-back" style="height: 100%;">
+            <img src=cad1.jpg style="width: 80%;margin-top: 3%; opacity: 0.5; border-radius:50%;" name="DMSChocolate" id="DMSChocolate" value="DMSChocolate">
+      <h1>Weight</h1>
+      <h2>60 gm</h2>
+    </div>
+  </div>
+        </div><</a></div>
+   
+         <div class="d3"><a href="Shots.jsp">
+    <div class="flip-box">
+    <div class="flip-box-inner">
+    <div class="flip-box-front">
+        <img src=cad2.jpg height="80%" width="100%" ><h1 style="color: white;">Shots</h1></div>
+        <div class="flip-box-back" style="height: 100%;">
+            <img src=cad2.jpg style="width: 80%;margin-top: 3%; opacity: 0.5; border-radius:50%; " name="Shots" id="Shots" value="Shots">
+      <h1>Weight</h1>
+      <h2>80 gm</h2>
+    </div>
+  </div>
+        </div></a></div>
+    
+    <div class="d2 "> <a href="DMSOreo.jsp">
+    <div class="flip-box">
+    <div class="flip-box-inner">
+    <div class="flip-box-front">
+        <img src=cad3.jpg height="80%" width="100%" ><h1 style="color: white;">Dairy Milk Silk <br>Oreo</h1></div>
+        <div class="flip-box-back" style="height: 100%;">
+            <img src=cad3.jpg style="width: 80%;margin-top: 3%; opacity: 0.5; border-radius:50%;" name="DMSOreo" id="DMSOreo" value="DMSOreo">
+      <h1>Weight</h1>
+      <h2>130 gm</h2>
+    </div>
+  </div>
+        </div></a></div>
+    
+     <div class="d3"> <a href="DMSRAlmond.jsp">
+    <div class="flip-box">
+    <div class="flip-box-inner">
+    <div class="flip-box-front">
+        <img src=cad4.jpg height="80%" width="100%" ><h1 style="color: white;">Dairy Milk Silk <br>Roast Almond</h1></div>
+        <div class="flip-box-back" style="height: 100%;">
+            <img src=cad2.jpg style="width: 80%;margin-top: 3%; opacity: 0.5; border-radius:50%; " name="DMSRoastAlmond" id="DMSRoastAlmond" value="DMSRoastAlmond">
+      <h1>Weight</h1>
+      <h2>55 gm</h2>
+    </div>
+  </div>
+         </div></a></div>
+
+
+<div class="d2 "> <a href="">
+    <div class="flip-box">
+    <div class="flip-box-inner">
+    <div class="flip-box-front">
+        <img src=cad5.jpg height="80%" width="100%" ><h1 style="color: white;">Dairy Milk Silk Bubbly</h1></div>
+        <div class="flip-box-back" style="height: 100%;">
+            <img src=cad5.jpg style="width: 80%;margin-top: 3%; opacity: 0.5; border-radius:50%; " name="DMSBubbly" id="DMSBubbly" value="DMSBubbly">
+      <h1>Weight</h1>
+      <h2>120 gm</h2>
+    </div>
+  </div>
+    </div></a></div>
+
+    <div class="d3"> <a href="">
+    <div class="flip-box">
+    <div class="flip-box-inner">
+    <div class="flip-box-front">
+        <img src=cad6.jpg height="80%" width="100%" ><h1 style="color: white;">Dairy Milk Silk Home Treats</h1></div>
+        <div class="flip-box-back" style="height: 100%;">
+            <img src=cad6.jpg style="width: 80%;margin-top: 3%; opacity: 0.5; border-radius:50%; " name="DMSHomeTreats" id="DMSHomeTreats">
+      <h1>Weight</h1>
+      <h2>150 gm</h2>
+    </div>
+  </div>
+        </div></a> </div>
+
+<div class="d2 "> <a href="">
+    <div class="flip-box">
+    <div class="flip-box-inner">
+    <div class="flip-box-front">
+        <img src=cad13.png height="80%" width="100%" ><h1 style="color: white;">Dairy Milk Toffee</h1></div>
+        <div class="flip-box-back" style="height: 100%;">
+            <img src=cad13.png style="width: 80%;margin-top: 3%; opacity: 0.5; border-radius:50%; " name="DMToffee" id="DMToffee" value="DMToffee">
+      <h1>Weight</h1>
+      <h2>60 gm</h2>
+    </div>
+  </div>
+    </div></a></div>
+   
+     <div class="d3"> <a href="">
+    <div class="flip-box">
+    <div class="flip-box-inner">
+    <div class="flip-box-front">
+        <img src=cad8.jpg height="80%" width="100%" ><h1 style="color: white;">Dairy Milk Silk <br>Duo</h1></div>
+        <div class="flip-box-back" style="height: 100%;">
+            <img src=cad8.jpg style="width: 80%;margin-top: 3%; opacity: 0.5; border-radius:50%; " name="DMSDuo" id="DMSDuo" value="DMSDuo">
+      <h1>Weight</h1>
+      <h2>55 gm</h2>
+    </div>
+  </div>
+         </div></a></div>
+
+    
+    </body>
+</html>

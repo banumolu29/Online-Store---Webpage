@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login/Signup</title>
+  <link rel="stylesheet" type="text/css" href="style1.css">
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function(){
+        $(".login-form").hide();
+        $(".login").css("background", "#BFBDBD");
+
+$(".login").click(function(){
+  $(".signup-form").hide();
+  $(".login-form").show();
+  $(".signup").css("background", "#BFBDBD");
+  $(".login").css("background", "#fff");
+});
+
+$(".signup").click(function(){
+  $(".signup-form").show();
+  $(".login-form").hide();
+  $(".login").css("background", "#BFBDBD");
+  $(".signup").css("background", "#fff");
+});
+
+$(".btn").click(function(){
+  $(".input").val("");
+});
+});
+  </script>
+</head>
+<!--<body background="project.jpg">-->
+	<body background ="project4.jpg">
+
+    <div class="wrapper">
+    <div class="container">
+      
+      <div class="signup">Sign Up</div>
+      <div class="login">Log In</div>
+      
+       <div class="signup-form">
+        <form action="SignUp.jsp" method="post">
+          <input type="text" placeholder="Enter Name" class="input" name="name" required autofocus><br />
+         <!-- <input type="text" placeholder="Enter Mobile Number" class="input" name="phne"><br /> -->
+          <input type="text" placeholder="Enter Username" class="input" name="uname" required><br />
+          <input type="password" placeholder="Enter Password" class="input" name="pass" required><br />
+          <input name="Submit" type="submit" value="Create Account">
+          </form>
+       </div>
+      
+      <div class="login-form">
+        <form action="Login.jsp" method="post"> 
+          <input type="text" placeholder=" Username" class="input" name="luname" required autofocus><br />
+          <input type="password" placeholder=" Password" class="input" name="lpass" required><br /><br />
+          <div class="fam"><input type="checkbox"> Remember Me<br /><br /></div>
+          <input type="submit" value="Login"><br /><br />
+
+          <div class="font"><p align="center"><a href="#">I have Forgot my password.</a></p></div>
+          </form>
+       </div>
+      
+    </div>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,105 @@
+<html>
+<head><style>  
+.d1{
+height:35%;
+width:17%;
+background-color:#FFA07A;
+float:left;
+margin-left:7%;
+margin-top:3%;
+border-radius: 20%;
+text-align: center;
+font-family: aharoni;
+
+
+}
+.d2{
+height:35%;
+width:17%;
+background-color:cyan;
+float: left;
+margin-left: 10%;
+margin-top:3%;
+border-radius: 20%;
+text-align: center;
+font-family: aharoni;
+
+}
+.d4{
+height:35%;
+width:17%;
+background-color:cyan;
+float: left;
+margin-left: 10%;
+margin-top:3%;
+border-radius: 20%;
+text-align: center;
+font-family: aharoni;
+
+}
+.d3{
+	font-family: aharoni;
+
+
+}
+.left{
+	text-decoration: none;
+}
+
+</style>
+
+</head>
+<body bgcolor="#F7F0D7">
+	<p align="center"><img src="logo.jpg" height="250px" width="400px"></p>
+	<h3>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspNAVIGATION BAR</h3>	
+	<div style="float:left;background-color:lightgrey;width:250px;height:400px"><h3>
+    <ul>
+    <li><a class="left" href="admin.html">Home</a></li><br><br>
+    <li><a class="left" href="adminUserdetails.jsp">User Details</a></li><br><br>
+    <li><a class="left" href="update.jsp">Product Details</a></li><br><br>
+    <li><a class="left" href="queries.jsp">Customer Queries</a></li><br><br>
+    <li><a class="left" href="order.jsp">Order Details</a></li><br><br>
+    <li><a class="left" href="index1.html">Logout</a></li>
+    </li></h3></div>
+	
+	<br><br>
+	<div  class="d3"><center><h2>Welcome Admin&nbsp,&nbsp<span id="demo"></span></h2></center>
+
+<script>
+var d = new Date();
+if(d.getHours()>12&&d.getHours()<=16){
+document.getElementById("demo").innerHTML = "Good AfterNoon";
+}
+else if(d.getHours()>16&&d.getHours()<24){
+	document.getElementById("demo").innerHTML = "Good Evening";
+}
+else{
+	document.getElementById("demo").innerHTML = "Good Morning";
+}
+
+</script>
+
+	</div>
+<a href="adminUserdetails.jsp">
+<div class="d1">
+	<br><br><br><br><br>
+	<h2>USER DETAILS</h2>
+</div>
+</a>
+<a href="update.jsp">
+<div class="d2">
+	<br><br><br><br><br>
+	<h2>PRODUCT DETAILS</h2>
+</div>
+</a>
+
+<a href="queries.jsp">
+<div class="d4">
+	<br><br><br><br><br>
+	<h2>CUSTOMER QUERIES</h2>
+</div>
+</a>
+
+
+</body>
+</html>
